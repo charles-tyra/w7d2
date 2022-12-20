@@ -1,0 +1,12 @@
+<h1>do da ding</h1>
+<form action="<%= sessions_url%>" method="POST">
+    <label> email:
+        <input type="text" name="user[email]" value="<%= @user.email %>">
+    </label>
+    <br>
+    <label> password:
+        <input type="password" name="user[password]">
+    </label>
+    <br> 
+    <input type="submit" value="do da ding">
+</form>
